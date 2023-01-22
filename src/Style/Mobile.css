@@ -12,10 +12,11 @@
     height: 45px;
     border-radius: 10px;
     display: flex;
+    justify-content: space-between;
 }
-mobile_input{
+.mobile_input{
     border: none;
-    width: 85%;
+    width: 75%;
     font-size: 25px;
 }
 .btn{
