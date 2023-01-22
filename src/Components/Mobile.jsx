@@ -28,7 +28,7 @@ const Mobile = () => {
         <img src='https://cdn-icons-png.flaticon.com/512/330/330439.png' alt='india'/>
             <hr/>
             <p>+91</p>
-            <input type="number" minLength="10"  onChange={(e)=>setCount(e.target.value)} value={count}/ >
+            <input type="number" minLength="10"  onChange={(e)=>setCount(e.target.value)} value={count} className="mobile_input"/ >
         </div>
       </div>
     </div>
