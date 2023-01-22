@@ -1,0 +1,42 @@
+.HomeContainer{
+    width: 25%;
+    margin: auto;
+    background-image: url(https://app-staging.youshd.com/static/media/background-image.f4123398e5165ddecdbf.png);
+    border-radius: 15px;
+}
+/* .HomeContainer>div{
+    margin-top: 100px;
+} */
+
+.HomeContainer>div>div:nth-child(1){
+    padding-top: 100px;
+}
+.span_text{
+    margin-top: 15px;
+}
+.span_text>span{
+  font-size: 24px;
+  font-family:Anybody; ;
+  font-weight: 700;
+  line-height:36px ;
+  color: #212529;
+  margin-left: 5px;
+}
+.span_text>span:nth-child(3){
+    background-color:rgba(0, 128, 0, 0.412);
+    color: aqua;
+}
+.logoYoushd{
+    margin:55px;
+}
+button{
+    width: 80%;
+    background-color: black;
+    color:white;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+}

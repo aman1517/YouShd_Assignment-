@@ -1,0 +1,28 @@
+.mobile_Container{
+    background-image: url(https://app-staging.youshd.com/static/media/background-image.f4123398e5165ddecdbf.png);
+    border: 1px solid red;
+    width: 32%;
+    margin: auto;
+
+}
+.mobile_box{
+    border: 1px solid rgba(0, 0, 0, 0.501);
+    width: 90%;
+    margin: auto;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+}
+input{
+    border: none;
+    width: 85%;
+    font-size: 25px;
+}
+.btn{
+    margin-top: 300px;
+}
+.btn>button{
+    width: 45%;
+
+}
+
