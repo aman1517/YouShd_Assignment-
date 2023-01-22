@@ -14,7 +14,7 @@ const OTP = () => {
    
   const OptHandle=()=>{
     if(count1=="1" && count2=="2" && count3=="3" && count4=="4" && count5=="5" && count6=="6"){
-        his("/auth")
+        his("/welcome")
       }
       else{
         alert("Wrong OTP plese fill correct OTP")

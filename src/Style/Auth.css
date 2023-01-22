@@ -1,0 +1,62 @@
+.authpage{
+    background-image: url(https://app-staging.youshd.com/static/media/background-image.f4123398e5165ddecdbf.png);
+   border-radius: 15px;
+    width: 25%;
+    margin: auto;
+
+}
+.socialMeidabox>div{
+    height: 90px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    opacity: 1;
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 15px;
+    border-radius: 10px;
+    border-bottom: 0.5px solid gainsboro;
+    margin-right: 15px;
+}
+.socialMeidabox>div:hover{
+    cursor: pointer;
+}
+.sociltext{
+    width: 70%;
+    text-align: start;
+}
+.spanLogo{
+   
+    height: 35px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 66%;
+    padding: 7px;
+}
+.spanLogo:hover{
+    cursor: pointer;
+}
+.titletxt{
+    text-align: left;
+}
+.bothbtn{
+    display: flex;
+    margin-top: 100px;
+}
+.bothbtn>button{
+    background-color: white;
+    border: 1px solid black;
+    width: 40%;
+    color: black;
+    font-weight: bold;
+}
+.bothbtn>button:nth-child(2){
+    margin-left: 15px;
+    background-color: rgba(146, 134, 134, 0.62);
+    opacity: 0.6;
+}
+.inactivebtn:hover{
+    cursor:not-allowed
+}

@@ -1,0 +1,22 @@
+
+    .welcomePage{
+        background-image: url(https://app-staging.youshd.com/static/media/background-image.f4123398e5165ddecdbf.png);
+       border-radius: 15px;
+        width: 25%;
+        margin: auto;
+    
+    }
+    .welcomePage>div:nth-child(1){
+        margin-top: 25px;
+    }
+    .logo2{
+        width:60%;
+        margin: auto;
+    }
+    .logo2>img{
+        width: 80%;
+        
+    }
+    .wlcbtn{
+        margin-top: 25px;
+    }
