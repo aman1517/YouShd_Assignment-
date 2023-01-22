@@ -1,20 +1,11 @@
 import React from 'react';
 import "../Style/Auth.css"
-import { useNavigate } from 'react-router-dom';
 
-
-const Auth = () => {
-    const history=useNavigate()
-
-    const goToDashboard=()=>{
-     history("/dash")
-    }
+const Dashboard= () => {
   return (
     <div className='authpage'>
     <div>
-        <h2 className='titletxt'>
-        Verify your social<br/>media accounts
-        </h2>
+       
         <div className='socialMeidabox'>
         <div>
             <img src='https://app-staging.youshd.com/static/media/instagram%20special.ea0349366f4e3e613be6.svg' alt='instalogo'/>
@@ -27,14 +18,23 @@ const Auth = () => {
             <span className='spanLogo'>{`<`}</span>
         </div>
         </div>
-        <div className='bothbtn'>
-        <button onClick={goToDashboard}>Skip for Now</button>
-        <button className='inactivebtn'>Continue</button>
-        </div>
+       <div className='dashborad'>
+         <h5>Total earnings withdrawn</h5>
+         <h2>$0</h2>
+         <div>
+         <h4>$0</h4>
+         <p>Current Blance !</p>
+         </div>
+         <div>
+         <h4>$0</h4>
+         <p>Available to withdraw !</p>
+         </div>
+       </div>
+       
     </div>
       
     </div>
   );
 }
 
-export default Auth;
+export default Dashboard;

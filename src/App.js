@@ -9,6 +9,7 @@ import Welcome from './Components/Welcome';
 import Shop from './Components/Shop';
 import Post from './Components/Post';
 import Earn from './Components/Earn';
+import Dashboard from './Components/Dashboard';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path='/shop' element={<Shop/>}/>
       <Route path='/post' element={<Post/>}/>
       <Route  path='/earn' element={<Earn/>}/>
+      <Route path='/dash' element={<Dashboard/>}/>
     
      </Routes>
     </div>
